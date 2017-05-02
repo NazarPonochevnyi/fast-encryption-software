@@ -12,7 +12,7 @@ and the program will work with your language.
 Also, pay attention to the line with the switch, changing +/-,
 you can change the program for encryption / decryption.
 
-Author: Ponochevnyi Nazar.
+Author: Ponochevnyi Nazar
 '''
 
 
