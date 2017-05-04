@@ -3,7 +3,7 @@
 #qpy:console
 
 '''
-@Caesar's Cipher@
+@Caesar Cipher@
 
 Comments:
 You can change the array with the alphabet to your language,
