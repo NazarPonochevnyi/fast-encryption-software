@@ -3,7 +3,7 @@
 #qpy:console
 
 '''
-@Vigener Cipher@
+@Vigener's Cipher@
 
 Comments:
 You can change the array with the alphabet to your language,
