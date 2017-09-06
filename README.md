@@ -22,4 +22,7 @@ Programs so that you can easily encrypt and decrypt your message with different 
 4. Input your text and key (your secret text) and press Enter
 5. Copy your encrypted/decrypted text, if you want of course :)
 
+### Encrypt/Decrypt with Vernam's Cipher
+Vernam's Cipher coming soon!
+
 ## Good Hacking!
