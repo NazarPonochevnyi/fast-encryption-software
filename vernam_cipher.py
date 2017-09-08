@@ -8,7 +8,7 @@ Comments:
 
 Soon the code will appear :)
 
-Author: Ponochevnyi Nazar
+Author: Nazar Ponochevnyi
 '''
 
 # Import some module
@@ -24,8 +24,8 @@ def slow_xor(aa, bb):
 
 # Input values
 while True:
-    text = input('Input your text: ').encode()
-    key = input('Input your key: ').encode()
+    text = input('\nInput text: ').encode()
+    key = input('\nInput key: ').encode()
     if len(text) == len(key): break
     print('\nInput text and a key of equal length!\n')
 
@@ -35,4 +35,4 @@ result = slow_xor(text, key)
 
 
 # Output values
-print('Your encrypted/decrypted text:', result)
+print('\nEncrypted/Decrypted text:', result)
