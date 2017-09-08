@@ -42,5 +42,5 @@ for t in text:
         result += t
 
     
-#Output
+# Output
 print('\nYour encrypted/decrypted text:', result)
