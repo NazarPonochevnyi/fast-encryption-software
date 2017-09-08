@@ -16,20 +16,18 @@ Author: Ponochevnyi Nazar
 '''
 
 
-#Alphabet (You can change)
+# Alphabet (You can change)
 A = ['А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н','О','П','Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Щ','Ъ','Ы','Ь','Э','Ю','Я']
 
 
-#Input
-text = input('\nInput your text: ')
-key = input('\nInput your key: ')
-text = text.upper()
-key = key.upper()
+# Input
+text = input('\nInput your text: ').upper()
+key = input('\nInput your key: ').upper()
 
 
-#Basic Processes
+# Basic Processes
 i = 0
-new_text = ''
+result = ''
 for t in text:
     if A.count(t) != 0:
         if i == len(key):
@@ -38,11 +36,11 @@ for t in text:
         pos = A.index(t) + sm    #!!! Toggle (+/-) !!! 
         if pos >= len(A):
             pos -= len(A)
-        new_text += A[pos]
+        result += A[pos]
         i += 1
     else:
-        new_text += t
+        result += t
 
     
 #Output
-print('\nYour encrypted text:', new_text)
+print('\nYour encrypted/decrypted text:', result)
