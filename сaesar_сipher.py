@@ -12,26 +12,25 @@ and the program will work with your language.
 Also, pay attention to the line with the switch, changing +/-,
 you can change the program for encryption / decryption.
 
-Author: Ponochevnyi Nazar
+Author: Nazar Ponochevnyi
 '''
 
 
-#Alphabet (You can change)
+# Alphabet (you can change)
 A = ['А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н','О','П','Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Щ','Ъ','Ы','Ь','Э','Ю','Я']
 
 
-#Input
-your_text = input('\nInput text: ')
+# Input
+text = input('\nInput text: ').upper()
 key = int(input('\nInput key: '))
-your_text = your_text.upper()
 
 
-#Basic proccess
+# Basic proccess
 result = ''
-for t in your_text:
+for t in text:
     if A.count(t) != 0:
         pos = A.index(t)
-        pos += key     #!!! Toggle (+/-) !!!
+        pos = pos + key     #!!! Toggle (+/-) !!!
         if pos >= len(A):
             pos -= len(A)
         result += A[pos]
@@ -39,5 +38,5 @@ for t in your_text:
         result += t
 
 
-#Output
-print('\nEncrypted text:', result)
+# Output
+print('\nEncrypted\Decrypted text:', result)
