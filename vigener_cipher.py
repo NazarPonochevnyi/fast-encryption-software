@@ -21,8 +21,8 @@ A = ['А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н',
 
 
 # Input
-text = input('\nInput your text: ').upper()
-key = input('\nInput your key: ').upper()
+text = input('\nInput text: ').upper()
+key = input('\nInput key: ').upper()
 
 
 # Basic processes
@@ -43,4 +43,4 @@ for t in text:
 
     
 # Output
-print('\nYour encrypted/decrypted text:', result)
+print('\nEncrypted/Decrypted text:', result)
