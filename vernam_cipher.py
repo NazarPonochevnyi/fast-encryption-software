@@ -16,11 +16,14 @@ import ast
 import numpy as np # pip install numpy
 
 
-# XOR function
+# Functions
 def xor(aa, bb):
     a = np.frombuffer(aa, dtype=np.byte)
     b = np.frombuffer(bb, dtype=np.byte)
-    return np.bitwise_xor(a, b).tostring()
+    return str(np.bitwise_xor(a, b).tostring())
+
+def btrip(string):
+    return string.replace('b\'', '').replace(string[-2] + '\'', string[-2])
 
 
 # Input values
@@ -42,10 +45,5 @@ result = xor(text, key)
 
 
 # Output values
-if action == 'en':
-    result = str(result)
-    print('\nEncrypted text:')
-    print(result.replace('b\'', '').replace(result[-2] + '\'', result[-2]))
-else:
-    print('\nDecrypted text:')
-    print(result.decode().replace('`', '\''))
+if action == 'en': print('\nEncrypted text:\n' + btrip(result))
+else: print('\nDecrypted text:\n' + btrip(result.encode().decode()).replace('`', '\''))
