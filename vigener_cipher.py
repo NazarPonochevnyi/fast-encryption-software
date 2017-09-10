@@ -20,7 +20,7 @@ Author: Nazar Ponochevnyi
 A = ['А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н','О','П','Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Щ','Ъ','Ы','Ь','Э','Ю','Я']
 
 
-# Input
+# Input values
 text = input('\nInput text: ').upper()
 key = input('\nInput key: ').upper()
 
@@ -42,5 +42,5 @@ for t in text:
         result += t
 
     
-# Output
+# Output values
 print('\nEncrypted/Decrypted text:', result)
