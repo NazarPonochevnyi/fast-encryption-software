@@ -27,7 +27,7 @@ def xor(aa, bb):
 while True:
     action = input('\nInput action: ').strip()
     if action in ['en', 'de']: break
-    else: print('\nIncorrect action!')
+    print('\nIncorrect action!')
 while True:
     text = ast.literal_eval("b'{}'".format(input('\nInput text: ').strip().replace('\'', '`')))
     key = ast.literal_eval("b'{}'".format(input('\nInput key: ').strip().replace('\'', '`')))
