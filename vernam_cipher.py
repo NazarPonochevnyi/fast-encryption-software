@@ -32,12 +32,15 @@ while True:
     if action in ['en', 'de']: break
     print('\nIncorrect action!')
 while True:
-    text = ast.literal_eval("b'{}'".format(input('\nInput text: ').strip().replace('\'', '`')))
-    key = ast.literal_eval("b'{}'".format(input('\nInput key: ').strip().replace('\'', '`')))
-    if len(key) >= len(text):
-        key = key[:len(text)]
-        break
-    print('\nInput text and a key of equal length!\n')
+    try:
+        text = ast.literal_eval("b'{}'".format(input('\nInput text: ').strip().replace('\'', '`')))
+        key = ast.literal_eval("b'{}'".format(input('\nInput key: ').strip().replace('\'', '`')))
+        if len(key) >= len(text):
+            key = key[:len(text)]
+            break
+        print('\nInput text and a key of equal length!\n')
+    except SyntaxError:
+        print('\nInput only ASCII literal characters!\n')
 
 
 # Basic processes
