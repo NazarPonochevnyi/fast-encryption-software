@@ -7,7 +7,7 @@
 Comments:
 
 To start the program, you must install the numpy module.
-To do this, run the command line and run: pip install numpy.
+To do this, run the command line and type: pip install numpy.
 
 Author: Nazar Ponochevnyi
 '''
