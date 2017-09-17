@@ -6,7 +6,8 @@
 @Vernam's Cipher@
 Comments:
 
-Soon the code will appear :)
+To start the program, you must install the numpy module.
+To do this, run the command line and run: pip install numpy.
 
 Author: Nazar Ponochevnyi
 '''
