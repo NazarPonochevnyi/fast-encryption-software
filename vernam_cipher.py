@@ -9,6 +9,10 @@ Comments:
 To start the program, you must install the numpy module.
 To do this, run the command line and type: pip install numpy.
 
+For now, the program supports only English and ASCII encoding,
+but in the near future, we will add support for the Russian
+language and UTF-8 encoding.
+
 Author: Nazar Ponochevnyi
 '''
 
