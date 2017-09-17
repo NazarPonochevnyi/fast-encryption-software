@@ -13,6 +13,10 @@ For now, the program supports only English and ASCII encoding,
 but in the near future, we will add support for the Russian
 language and UTF-8 encoding.
 
+If you need to encrypt a message, in the 'Input action:' field,
+type 'en', and if you need to decrypt the message, enter 'de'
+in the 'Input action:' field.
+
 Author: Nazar Ponochevnyi
 '''
 
