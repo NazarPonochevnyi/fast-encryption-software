@@ -1,6 +1,11 @@
 # Documentation for Encryption Software
 
-Programs so that you can easily encrypt and decrypt your message with different encryption algorithms.
+![](https://img.shields.io/badge/-status:wip-5319e7.svg)
+![](https://img.shields.io/github/license/NazarPonochevnyi/fast-encryption-software)
+![](https://img.shields.io/github/languages/code-size/NazarPonochevnyi/fast-encryption-software)
+![](https://img.shields.io/github/last-commit/NazarPonochevnyi/fast-encryption-software)
+
+🔒 Programs so that you can easily encrypt and decrypt your message with different encryption algorithms.
 
 ### Get Started
 
@@ -24,5 +29,8 @@ Programs so that you can easily encrypt and decrypt your message with different 
 
 ### Encrypt/Decrypt with Vernam's Cipher
 Vernam's Cipher coming soon!
+
+### License
+[MIT License](./LICENSE)
 
 ## Good Hacking!
