@@ -1,7 +1,6 @@
 # Documentation for Encryption Software
 
 ![](https://img.shields.io/badge/-status:wip-5319e7.svg)
-![](https://img.shields.io/github/license/NazarPonochevnyi/fast-encryption-software)
 ![](https://img.shields.io/github/languages/code-size/NazarPonochevnyi/fast-encryption-software)
 ![](https://img.shields.io/github/last-commit/NazarPonochevnyi/fast-encryption-software)
 
